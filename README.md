@@ -1,5 +1,3 @@
 # Design Patterns
 
-...
-
-links here in the future
+### [Strategy](https://github.com/kammradt/faculdade-design-patterns/tree/master/src/patterns/strategy) 
