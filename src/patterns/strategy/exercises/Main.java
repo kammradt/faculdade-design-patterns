@@ -28,6 +28,11 @@ public class Main {
         queen.setWeapon(new Bow());
         queen.fight();
         queen.attackWithWeapon();
+
+        queen.setWeapon(new Axe());
+        queen.attackWithWeapon();
+
+
         print("");
     }
 }
