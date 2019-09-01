@@ -7,4 +7,4 @@ So we can create a Inteface for that behavior that will have a method to be impl
 ``
 
 ### Exercises
-- [Exercise Pattern](https://github.com/kammradt/faculdade-design-patterns/tree/master/src/patterns/strategy/exercises/)
+- [Exercise Strategy](https://github.com/kammradt/faculdade-design-patterns/tree/master/src/patterns/strategy/exercises/)
