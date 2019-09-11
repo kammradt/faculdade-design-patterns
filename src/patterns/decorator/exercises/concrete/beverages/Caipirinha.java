@@ -7,16 +7,17 @@ import patterns.decorator.exercises.concrete.condiments.Gelo;
 import patterns.decorator.exercises.concrete.condiments.Limao;
 
 public class Caipirinha extends Beverage {
-    private Double cost = .0;
+    private Double cost;
 
     public Caipirinha() {
         this.description = this.getClass().getSimpleName() + " w/" ;
-        Cachaca cachaca = new Cachaca(this);
-        Limao limao = new Limao(cachaca);
-        Gelo gelo = new Gelo(limao);
-        Acucar acucar = new Acucar(gelo);
-        this.cost = acucar.cost();
-        this.description = acucar.getDescription();
+        Beverage caipirinha = new Caipira();
+        caipirinha = new Cachaca(caipirinha);
+        caipirinha = new Limao(caipirinha);
+        caipirinha = new Gelo(caipirinha);
+        caipirinha = new Acucar(caipirinha);
+        this.cost = caipirinha.cost();
+        this.description = caipirinha.getDescription();
     }
 
     @Override
