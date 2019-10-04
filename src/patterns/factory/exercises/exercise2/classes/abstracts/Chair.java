@@ -31,4 +31,5 @@ public abstract class Chair {
         StructureFactory structureFactory = new StructureFactory();
         this.structure = structureFactory.createStructure(materialType);
     }
+
 }

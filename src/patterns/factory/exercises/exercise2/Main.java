@@ -13,5 +13,10 @@ public class Main {
         chair.createAndSetBack(MaterialType.PLASTIC);
         chair.createAndSetSeat(MaterialType.ALUMINUM);
         chair.createAndSetStructure(MaterialType.WOOD);
+
+        Chair chairFerroBraboBemForte = chairFactory.createChair(MaterialType.ALUMINUM);
+        chairFerroBraboBemForte.createAndSetStructure(MaterialType.PLASTIC);
+
+
     }
 }
