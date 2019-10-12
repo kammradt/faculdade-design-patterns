@@ -1,6 +1,6 @@
-package patterns.composite.exercises.classes;
+package patterns.composite.exercises.first.classes;
 
-import patterns.composite.exercises.interfaces.GraphicObject;
+import patterns.composite.exercises.first.interfaces.GraphicObject;
 
 import java.util.ArrayList;
 import java.util.List;
