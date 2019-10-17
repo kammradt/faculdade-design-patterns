@@ -1,6 +1,6 @@
-package patterns.adapter.exercises.implementations;
+package patterns.adapter.exercises.first.implementations;
 
-import patterns.adapter.exercises.interfaces.ThreePinPlug;
+import patterns.adapter.exercises.first.interfaces.ThreePinPlug;
 
 public class ThreePinPlugImplementation implements ThreePinPlug {
     @Override

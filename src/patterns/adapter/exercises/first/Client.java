@@ -1,10 +1,10 @@
-package patterns.adapter.exercises;
+package patterns.adapter.exercises.first;
 
-import patterns.adapter.exercises.implementations.ThreePinPlugImplementation;
-import patterns.adapter.exercises.implementations.TwoPinPlugImplementation;
-import patterns.adapter.exercises.implementations.TwoToThreePinPlugAdaper;
-import patterns.adapter.exercises.interfaces.ThreePinPlug;
-import patterns.adapter.exercises.interfaces.TwoPinPlug;
+import patterns.adapter.exercises.first.implementations.ThreePinPlugImplementation;
+import patterns.adapter.exercises.first.implementations.TwoPinPlugImplementation;
+import patterns.adapter.exercises.first.implementations.TwoToThreePinPlugAdaper;
+import patterns.adapter.exercises.first.interfaces.ThreePinPlug;
+import patterns.adapter.exercises.first.interfaces.TwoPinPlug;
 
 public class Client {
     public static void main(String[] args) {

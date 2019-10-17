@@ -1,4 +1,4 @@
-package patterns.adapter.exercises.interfaces;
+package patterns.adapter.exercises.first.interfaces;
 
 public interface ThreePinPlug {
 

@@ -1,7 +1,7 @@
-package patterns.adapter.exercises.implementations;
+package patterns.adapter.exercises.first.implementations;
 
-import patterns.adapter.exercises.interfaces.ThreePinPlug;
-import patterns.adapter.exercises.interfaces.TwoPinPlug;
+import patterns.adapter.exercises.first.interfaces.ThreePinPlug;
+import patterns.adapter.exercises.first.interfaces.TwoPinPlug;
 
 public class TwoToThreePinPlugAdaper implements TwoPinPlug {
 
